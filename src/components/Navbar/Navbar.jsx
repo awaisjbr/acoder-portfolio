@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo345.png";
 import { FaAlignRight } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import resume from "../../assets/resume.pdf"
 
 const Navbar = () => {
   const [mopbileMenu, setMobileMenu] = useState(false);
@@ -29,18 +31,19 @@ const Navbar = () => {
               <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-200 ease-in-out hover:scale-110"><NavLink to={"/about"}>About</NavLink></li>
               <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-200 ease-in-out hover:scale-110"><NavLink to={"/skills"}>Skills</NavLink></li>
               <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-200 ease-in-out hover:scale-110"><NavLink to={"/portfolio"}>Portfolio</NavLink></li>
+              <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-200 ease-in-out hover:scale-110"><NavLink to={"/contact"}>Contact</NavLink></li>
             </ul>
           </div>
         </div>
 
         <div className="block md:hidden p-1 cursor-pointer">
           <ul className="flex items-center gap-2 text-sm font-semibold">
-            <li className="border p-1 rounded-md"><NavLink to={"/contact"}>Contact</NavLink></li>
+            <li className="border p-1 rounded-md"><a className="text-xs" href={resume} download="resume">Download CV</a></li>
             <li className="bg-[rgb(108,78,232)] p-1 text-white rounded-md">
-              <FaAlignRight onClick={handleMenu}/>
+              {mopbileMenu ? <IoClose onClick={handleMenu} /> : <FaAlignRight onClick={handleMenu}/>}
             </li>
           </ul>
-          {mopbileMenu ? <div className="absolute top-10 right-0 w-[35%] rounded-md mt-1 bg-slate-700 flex items-start justify-center z-10 shadow-md">
+          {mopbileMenu ? <div className="absolute top-10 right-0 w-[35%] rounded-md mt-1 bg-[rgb(108,78,232)] flex items-start justify-center z-10 shadow-md">
               <ul className="flex flex-col gap-5 my-5 text-white">
                 <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/"}>Home</NavLink></li>
                 <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/about"}>About</NavLink></li>
@@ -52,7 +55,8 @@ const Navbar = () => {
 
         </div>
 
-      <button className="hidden md:block bg-[rgb(108,78,232)] text-white py-1 px-2 rounded-lg text-md font-semibold hover:bg-white hover:text-[rgb(108,78,232)] transition-all duration-700 ease-in-out hover:border lg:text-lg"><NavLink to={"/contact"}>Contact</NavLink></button>
+      <button className="hidden md:block bg-[rgb(108,78,232)] text-white py-1 px-2 rounded-lg text-md font-semibold hover:bg-white hover:text-[rgb(108,78,232)] transition-all duration-700 ease-in-out hover:border lg:text-lg"><a href={resume} download="resume">Download CV</a></button>
+      {/* <input className="hidden md:block bg-[rgb(108,78,232)] text-white py-1 px-2 rounded-lg text-md font-semibold hover:bg-white hover:text-[rgb(108,78,232)] transition-all duration-700 ease-in-out hover:border lg:text-lg" type="button" value="Download CV" ac/> */}
 
 
     </nav>

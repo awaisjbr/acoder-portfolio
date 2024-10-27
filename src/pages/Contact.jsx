@@ -49,11 +49,11 @@ const Contact = () => {
         <div className='w-full bg-slate-400 items-center mt-1 mb-10 flex-1'>
         <p className='text-center text-xl font-bold underline underline-offset-8 my-5'>Send Message</p>
         <form action="https://api.web3forms.com/submit" className='flex flex-col gap-5 my-2 items-center' method='POST'>
-          <input type="text" className='hidden' name="access_key"  value={"9884a3b5-7a8d-4c0f-864f-1488c989b19a"}/>
+          <input type="text" className='hidden' name="access_key"  value={"9884a3b5-7a8d-4c0f-864f-1488c989b19a"} onChange={() => ""}/>
           <input className='border h-10 w-[80%] p-2 outline-none text-slate-500' type="text" name='name' placeholder='Your Name' autoComplete='off'/>
           <input className='border h-10 w-[80%] p-2 outline-none text-slate-500' type="email" name='email' placeholder='Your Email' autoComplete='off'/>
           <input className='border h-10 w-[80%] p-2 outline-none text-slate-500' type="text" name="subject" placeholder='Subject...' autoComplete='off'/>
-          <textarea className='w-[80%] p-2 outline-none text-slate-500' rows={10} name="message" placeholder='Message'/>
+          <textarea className='w-[80%] p-2 outline-none text-slate-500' rows={10} name="message" placeholder='Message' autoComplete='off'/>
           <button className='bg-[rgb(108,78,232)] text-white p-2 rounded-md' type='submit'>Send Message</button>
         </form>
       </div>

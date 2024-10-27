@@ -22,14 +22,14 @@ const About = () => {
         </div>
 
         <div className='flex flex-col gap-2 md:flex-1'>
-          <p className='font-semibold md:text-2xl'>Proficient In</p>
+          <p className='font-semibold md:text-2xl lg:mt-7'>Proficient In</p>
           <ul className='flex flex-col gap-2'>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>React-based Frontend Developer</li>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>Web & Application Developer</li>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>Available for Freelancing</li>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>UI/UX Developer</li>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>E-Commerce Developer</li>
-            <li className='flex items-center gap-2'><span className='text-sm text-green-600'><FaPlus /></span>Mobile Responsivness</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>React-based Frontend Developer</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>Web & Application Developer</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>Available for Freelancing</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>UI/UX Developer</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>E-Commerce Developer</li>
+            <li className='flex items-center gap-2 text-sm lg:text-lg'><span className='text-xs text-green-600'><FaPlus /></span>Mobile Responsivness</li>
           </ul>
         </div>
       </div>

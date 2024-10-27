@@ -20,7 +20,7 @@ const Intro = () => {
             <h3 className="text-[rgb(58,57,93)] text-2xl lg:text-3xl font-semibold">Hello,</h3>
             <h3 className="text-[rgb(58,57,93)] text-2xl lg:text-3xl font-semibold">I'm M. Awais,</h3>
             <h3 className="text-[rgb(58,57,93)] text-2xl lg:text-3xl font-semibold flex items-center gap-2 text"><FaReact /> React-based</h3>
-            <h3 className="flex gap-1 items-center text-lg lg:text-2xl font-bold  text-[rgb(58,57,93)]"> <span className="text-[rgb(108,78,232)]"><Typewriter options={{
+            <h3 className="flex gap-1 items-center text-md md:text-lg lg:text-2xl font-bold  text-[rgb(58,57,93)]"> <span className="text-[rgb(108,78,232)]"><Typewriter options={{
     strings: ['Front-end Web-Developer',"and Freelancer"],
     autoStart: true,
     loop: true,
