@@ -12,7 +12,23 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #202A31;
+    /* background-color: #202A31; */
+    background: url('https://res.cloudinary.com/dofovybxu/image/upload/v1740204899/background_argxo0.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* position: relative; */
+}
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
 }
 
 .active{

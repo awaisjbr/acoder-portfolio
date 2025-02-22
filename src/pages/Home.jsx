@@ -4,7 +4,6 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import TypeWriterComponent from '../components/TypeWriterComponent';
-import myimage from "../assets/Awais.png"
 
 const Home = () => {
   return (
@@ -20,7 +19,7 @@ const Home = () => {
         </div>
 
         <div className="flex-1 flex items-center flex-col justify-center lg:gap-5">
-          <img src={myimage} alt="" width={200} height={200}  className="rounded-full md:rounded-2xl"/>
+          <img src="https://res.cloudinary.com/dofovybxu/image/upload/v1740204682/p4qmdb2t3xmhtd54tq7m.jpg" alt="myImage" width={200} height={200}  className="rounded-full md:rounded-2xl"/>
           <h2 className="text-xl font-semibold"><TypeWriterComponent text={['Web-Developer',"and Freelancer"]} color="white"/></h2>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { FaRegSquareCheck } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className='w-[90%] mx-auto mt-2 home pt-20'>
+    <div className='w-[90%] mx-auto home pt-16 md:pt-28'>
       <h1 className='text-center text-white text-xl font-semibold md:text-4xl md:font-bold underline underline-offset-4 decoration-white'>About</h1>
       <div>
         <div>
