@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo Icon */}
       <div className="logo flex items-center gap-2">
-        <div className="w-10 h-10 bg-[rgb(108,78,232)] flex items-center justify-center rounded-full md:h-16 md:w-16" onClick={() => setMobileMenu(false)}>
+        <div className="w-10 h-10 bg-[#202A31] flex items-center justify-center rounded-full md:h-16 md:w-16" onClick={() => setMobileMenu(false)}>
           <Link to={"/"}><img className="w-6 md:w-12" src={logo} alt="" /></Link>
         </div>
         <p className="text-[rgb(58,57,93)] font-bold text-md lg:text-xl">
@@ -49,7 +49,7 @@ const Navbar = () => {
           </ul>
           {mopbileMenu ? <div className="absolute top-16 right-2 w-[35%] rounded-md mt-1 bg-white flex items-start justify-center z-10 shadow-md">
               <ul className="flex flex-col gap-5 my-5 text-[rgb(108,78,232)] font- font-bold">
-                <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink className="active" to={"/"}>Home</NavLink></li>
+                <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/"}>Home</NavLink></li>
                 <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/about"}>About</NavLink></li>
                 <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/contact"}>Contact</NavLink></li>
                 <li onClick={() => setMobileMenu(false)} className="hover:underline underline-offset-4"><NavLink to={"/skills"}>Skills</NavLink></li>
@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>:<></>}
         </div>
 
-      <button className="hidden md:block bg-[#2A4DBD] text-white py-1 px-2 rounded-lg text-md font-semibold hover:bg-[#152865] transition-all duration-700 ease-in-out hover:border lg:text-lg"><a href={resume} download="resume.pdf">Download CV</a></button>
+      <button className="hidden md:block bg-[rgb(108,78,232)] text-white py-1 px-2 rounded-lg text-md font-semibold hover:bg-[#152865] transition-all duration-700 ease-in-out hover:border lg:text-lg"><a href={resume} download="resume.pdf">Download CV</a></button>
       </div>
     </nav>
   );

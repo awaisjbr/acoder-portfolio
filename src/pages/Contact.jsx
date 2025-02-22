@@ -30,7 +30,7 @@ const Contact = () => {
     setFormData({...formData, [name]:value})
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     setLoading(true);
 
@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   if(loading){
-    return <div className='h-screen'><Loading /></div>
+    return <Loading />
   };
 
 
