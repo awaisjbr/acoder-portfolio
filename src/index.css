@@ -15,6 +15,11 @@ body{
     background-color: #202A31;
 }
 
+.active{
+    text-decoration:  underline;
+
+}
+
 .home{
     animation: fade 2s forwards ease-in;
 }
