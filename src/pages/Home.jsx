@@ -7,7 +7,7 @@ import TypeWriterComponent from '../components/TypeWriterComponent';
 
 const Home = () => {
   return (
-    <div className="w-[90%] mx-auto mt-2 md:h-[500px] md:flex items-center home pt-16 md:pt-24 lg:pt-32">
+    <div className="w-[90%] mx-auto md:h-[500px] md:flex items-center home pt-16 md:pt-24 lg:pt-32">
 
       <div className="flex flex-col md:flex-row items-center gap-3">
         <div className="flex flex-col flex-1 gap-2 lg:gap-5 lg:p-5 self-start p-5">

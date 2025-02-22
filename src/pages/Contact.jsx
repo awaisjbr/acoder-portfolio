@@ -65,7 +65,7 @@ const Contact = () => {
 
 
   return (
-    <div className='flex flex-col items-center mt-5 home pt-20'>
+    <div className='flex flex-col items-center home pt-20'>
     <div className='my-2 text-2xl font-semiboldb text-white'><p>Contact Me</p></div>
 
     <div className='flex flex-col md:flex-row gap-5 text-sm font-semibold w-[90%]'>

@@ -12,7 +12,7 @@ import { SiExpress } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className='flex flex-col gap-2 items-center mt-5 home w-[100%] pt-20'>
+    <div className='flex flex-col gap-2 items-center min-h-screen home w-[100%] pt-20'>
     <div className='my-2 text-white text-2xl font-semibold underline underline-offset-8 decoration-red-600'>
       <p>My Skills</p>
     </div>
