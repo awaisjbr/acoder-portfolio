@@ -11,30 +11,22 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
+
 body{
     /* background-color: #202A31; */
      background: url('https://res.cloudinary.com/dofovybxu/image/upload/v1740204899/background_argxo0.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(15px);
     min-height: 100vh; 
-    /* position: relative; */
-}
-/* body::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: -1;
-} */
+    position: relative;
+}
+
 
 .active{
-    text-decoration:  underline;
-
+    text-decoration:  overline;
 }
 
 .home{
@@ -67,4 +59,37 @@ body{
     100%{
         width: 100%;
     }
+}
+
+
+::-webkit-scrollbar {
+    width: 15px; /* For vertical scrollbar */
+    height: 5px; /* For horizontal scrollbar */
+    background-color: #000; /* Background of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1; /* Color of the thumb */
+    height: 20px;
+    border-radius: 10px; 
+    border: 5px solid #000; /* Adds padding around the thumb */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #000; /* Background of the track */
+    /* border-radius: 10px; */
+}
+
+/* Style the scrollbar buttons (optional) */
+::-webkit-scrollbar-button {
+    display: none;
+    /* background-color: #ccc; */
+    /* border-radius: 5px; */
+}
+
+/* Style the corner between horizontal and vertical scrollbar */
+::-webkit-scrollbar-corner {
+    background-color: #b0b0b0;
 }
