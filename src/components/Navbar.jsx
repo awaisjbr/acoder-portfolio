@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="absolute w-full top-0 left-0 right-0 bg-white md:mt-1 md:w-[95%] z-10 md:mx-auto px-2 md:rounded-lg md:px-5 py-3 md:py-1" style={{background: "rgba(255,255,255,0.5)"}}>
+    <nav className="fixed w-full top-0 left-0 right-0 bg-white md:mt-1 md:w-[95%] z-10 md:mx-auto px-2 md:rounded-lg md:px-5 py-3 md:py-1" style={{background: "rgba(255,255,255,0.5)"}}>
       <div className="flex items-center justify-between">
         {/* Logo Icon */}
       <div className="logo flex items-center gap-2">
