@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/success" element={<Success />} />
         </Routes>
       </Suspense>
+      {/* <Footer /> */}
     </>
   );
 };

@@ -14,14 +14,14 @@
 
 body{
     /* background-color: #202A31; */
-     background: url('https://res.cloudinary.com/dofovybxu/image/upload/v1740204899/background_argxo0.jpg');
+     background: url('https://res.cloudinary.com/dofovybxu/image/upload/v1740456314/background_ldafsr.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(15px);
     min-height: 100vh; 
     height: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 
