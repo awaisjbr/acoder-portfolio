@@ -16,10 +16,10 @@ const About = () => {
         <div className='mt-5 lg:w-[70%] lg:mx-auto'>
             <div className='flex flex-col gap-1'>
               <h1 className='text-white text-xl font-semibold my-2 lg:text-2xl'>What I Do</h1>
-              <div className='flex items-center gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Front-end Development - <span className='text-sm font-normal'> Creating interactive, responsive UIs</span></h3></div>
-              <div className='flex items-center gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Back-end Development - <span className='text-sm font-normal'> API development & database management</span></h3></div>
-              <div className='flex items-center gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Performance Optimization  - <span className='text-sm font-normal'> Enhancing speed, SEO & UX</span></h3></div>
-              <div className='flex items-center gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Freelancer - <span className='text-sm font-normal'> Availabale for freelancing</span></h3></div>
+              <div className='flex items-start sm:items-center justify-start gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Front-end Development - <span className='text-sm font-normal'> Creating interactive, responsive UIs</span></h3></div>
+              <div className='flex items-start sm:items-center justify-start gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Back-end Development - <span className='text-sm font-normal'> API & database management</span></h3></div>
+              <div className='flex items-start sm:items-center justify-start gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Performance Optimization  - <span className='text-sm font-normal'> Enhancing speed, SEO & UX</span></h3></div>
+              <div className='flex items-start sm:items-center justify-start gap-2'><FaRegSquareCheck className='text-white' /><h3 className='text-white font-semibold'>Freelancer - <span className='text-sm font-normal'> Availabale for freelancing</span></h3></div>
             </div>
             <div className='mt-5'>
               <h1 className='text-white text-xl font-semibold my-2 lg:text-2xl'>Tech Stack</h1>
