@@ -50,7 +50,7 @@ const Portfolio = () => {
               <div className='flex items-center justify-center h-full flex-col home text-white text-lg font-semibold relative'>
                   <h1>Food Delivery App</h1>
                   <p>React JS & Firebase 9</p>
-                  <a href="https://food-delivery-app-ashy-eta.vercel.app/" target='_blank' className='absolute bottom-10 right-10 bg-green-500 py-2 px-3 text-sm rounded-md'>Live Preview</a>
+                  <a href="https://food-delivery-app-blush-nu.vercel.app/" target='_blank' className='absolute bottom-10 right-10 bg-green-500 py-2 px-3 text-sm rounded-md'>Live Preview</a>
               </div>
             </div>
           </div>
