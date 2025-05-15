@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to={"/"}><img className="w-6 md:w-12" src={logo} alt="" /></Link>
         </div>
         <p className="text-[rgb(58,57,93)] font-bold text-md lg:text-xl">
-          a<span className="text-[rgb(108,78,232)] font-bold">.</span> Coder
+          a<span className="text-[#6c4ee8] font-bold">.</span> Coder
           <span className="text-[rgb(108,78,232)] font-bold">.</span>
         </p>
       </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="hidden md:block">
             <div className="flex items-center gap-8">
             <ul className="flex items-center gap-4 lg:gap-12 text-sm md:text-md lg:text-lg font-semibold">
-                <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-300 ease-in-out hover:scale-110"><NavLink to={"/"}>Home</NavLink></li>
+                <li className="cursor-pointer hover:text-[#6c4ee8] transition-all duration-300 ease-in-out hover:scale-110"><NavLink to={"/"}>Home</NavLink></li>
                 <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-300 ease-in-out hover:scale-110"><NavLink to={"/about"}>About</NavLink></li>
                 <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-300 ease-in-out hover:scale-110"><NavLink to={"/skills"}>Skills</NavLink></li>
                 <li className="cursor-pointer hover:text-[rgb(108,78,232)] transition-all duration-300 ease-in-out hover:scale-110"><NavLink to={"/portfolio"}>Portfolio</NavLink></li>
