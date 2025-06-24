@@ -37,7 +37,7 @@ const Portfolio = () => {
             <div className='w-80 h-72 lg:w-96 hidden group-hover:block' style={{background: "rgba(108,78,232,0.8)"}}>
               <div className='flex items-center justify-center h-full flex-col home text-white text-lg font-semibold relative'>
                   <h1>Authantication App</h1>
-                  <p>MERN Stack</p>
+                  <p>MERN Full Stack</p>
                   <a href="https://mern-authentication-app-virid.vercel.app/" target='_blank' className='absolute bottom-10 right-10 bg-green-500 py-2 px-3 text-sm rounded-md'>Live Preview</a>
               </div>
             </div>
